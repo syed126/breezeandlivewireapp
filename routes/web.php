@@ -15,5 +15,7 @@ Route::view('profile', 'profile')
 
     Route::get('/item/new', ItemManager::class)->name('item.new');
 
+
+
 require __DIR__.'/auth.php';
 
